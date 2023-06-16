@@ -1,0 +1,38 @@
+
+.container-card1{
+   padding: 48px 94px;
+}
+.image-card1{
+    width: 90%;
+}
+
+.container-text-card1{
+  
+    margin-top: 5%;
+
+}
+.titlecard2{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+.titlecard3{
+    font-size: x-large;
+}
+.button1{
+    margin-top: 48px;
+}
+.button1 a{
+    font-size: 3vh;
+    text-shadow: none;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button1 a:hover{
+    background-color: rgb(175, 0, 0);
+}

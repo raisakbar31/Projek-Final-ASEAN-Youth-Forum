@@ -15,4 +15,6 @@ const navigate=useNavigate()
     )
     }
   export default Navbar
+
+  
   
