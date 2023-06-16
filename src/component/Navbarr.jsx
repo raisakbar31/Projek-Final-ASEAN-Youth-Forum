@@ -32,7 +32,7 @@ function NavScrollExample() {
             navbarScroll
           >
            <Nav.Link href="Home">Dashboard</Nav.Link>
-            <Nav.Link href="Article">Article</Nav.Link>
+            <Nav.Link href="Article" >Article</Nav.Link>
             <Nav.Link href="About">About</Nav.Link>
             <Nav.Link href="Information">Information</Nav.Link>
             <NavDropdown title="Option" id="navbarScrollingDropdown">

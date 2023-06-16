@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import imagectaforum from "../card/cardimage/image-isu-forum.jpg"
+c
 import "./css-card/card-main1.css"
 
 function cardmain1() {
