@@ -1,0 +1,42 @@
+
+.container-header{
+    background-color: rgba(0, 0, 0, 0.757);
+    height: 100vh;
+
+}
+
+.title-header{
+padding-top: 18vh;
+padding-left: 10%;
+padding-right: 30%;
+color: white;
+font-size: xx-large;
+font-weight: bolder;
+text-shadow: 2px 2px black;
+}
+.title-header2{
+    font-weight: lighter;
+    padding-top: 20px;
+    font-size: large;
+}
+.button1 {
+    
+    margin-top: 24px;
+    cursor: pointer;
+}
+.button1 a{
+    position: relative;
+    z-index: 9;
+    font-size: 3vh;
+    text-shadow: none;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.406);
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button1 a:hover{
+    background-color: rgb(175, 0, 0);
+}
