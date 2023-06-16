@@ -3,7 +3,7 @@ import Navbarr from "../component/Navbarr"
 import Header from "../component/Header"
 import Caroselheader from "../component/Carosel-header"
 import Qna from "../component/qna/Qna"
-import Cardmain1 from "../component/card/Card-main1"
+import Cardmain from "../component/card/Card-main1"
 import Footer from "../component/footer"
 
 // ------css-----------
@@ -24,7 +24,7 @@ function Home() {
     </div>
 {/* ================================= */}
 <div className="card1">
-    <Cardmain1 />
+    {/* <Cardmain /> */}
     </div>
     <div className="qna">
      <Qna/>

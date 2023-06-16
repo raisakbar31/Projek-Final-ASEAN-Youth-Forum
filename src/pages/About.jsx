@@ -1,8 +1,8 @@
-import Cardabout from "../component/card/Cardabout"
+
 import Footer from "../component/footer";
-import Navbarr from "../component/Navbarr"
+import Navbarr from "../component/Navbarr";
 import Qna from "../component/qna/Qna";
-import "../style/about.css"
+import "../style/about.css";
 
 function About() {
 
@@ -11,10 +11,8 @@ function About() {
       <Navbarr/>
       <div className="containerabout">
         <Qna/>
-    
         <Footer/>
         </div>
-
       </>
     )
   }

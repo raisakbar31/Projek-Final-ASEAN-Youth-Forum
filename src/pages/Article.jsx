@@ -1,6 +1,6 @@
 import Navbarr from "../component/Navbarr"
 import Footer from "../component/footer"
-import Cardmain1 from "../component/card/Card-main1"
+import Cardmain from "../component/card/Card-main1"
 import Cardartikel from "../component/article/Cardartikel"
 
 
@@ -15,7 +15,7 @@ function Article() {
 
 {/* ================================= */}
 <div className="card1">
-    <Cardmain1 />
+    <Cardmain />
     </div>
     <div className="cardartikel2">
       <Cardartikel/>
