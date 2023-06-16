@@ -1,0 +1,15 @@
+.button2{
+    font-size: medium;
+    background-color: red;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    color: white;
+}
+
+.button2:hover{
+
+    background-color: rgb(211, 0, 0);
+    color: white;
+    font-weight: bold;
+}

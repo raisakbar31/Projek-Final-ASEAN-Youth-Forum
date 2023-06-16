@@ -1,0 +1,13 @@
+.container-login{
+    background-image: url("./wal.jpg");
+    background-size: cover;
+    height: 120vh;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.containerform{
+    background-color: rgba(255, 255, 255, 0.395);
+    padding: 24px;
+    box-shadow: 0px 15px 61px -4px rgba(0, 0, 0, 0.44);
+}

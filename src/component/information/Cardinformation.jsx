@@ -4,23 +4,23 @@ import Row from "react-bootstrap/Row";
 
 import imageartikel1 from "../card/cardimage/article1.jpg"
 
-import "./cardartikel.css"
+import "./Cardinformation.css"
 
-function GridExample() {
+function Cardinformation() {
   return (
     <>
     <div className="cardartikeltitle">
       <center>
         <hr />
       <h1>
-        Artikel Trending
+        Information Forum
       </h1>
       <hr /><br />
       </center>
     </div>
     <div className="containelcard2">
-    <Row xs={1} md={3} className="g-8" >
-      {Array.from({ length: 6 }).map((_, idx) => (
+    <Row xs={1} md={4} className="g-8" >
+      {Array.from({ length: 8 }).map((_, idx) => (
         <Col key={idx}>
           <Card className="articleimage">
             <Card.Img variant="top" src={imageartikel1} />
@@ -32,6 +32,8 @@ function GridExample() {
                 intention of influencing government action, either directly by
                 providing input...
               </Card.Text>
+              <center>
+              <button className="button2" >lihat forum ini</button></center>
             </Card.Body>
           </Card>
         </Col>
@@ -43,4 +45,4 @@ function GridExample() {
   );
 }
 
-export default GridExample;
+export default Cardinformation;

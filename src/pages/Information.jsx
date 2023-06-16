@@ -1,8 +1,16 @@
+import Navbarr from "../component/Navbarr"
+import Footer from "../component/footer"
+
+import Cardinformation from "../component/information/Cardinformation"
+
 function Information() {
 
     return (
       <>
-        <h1>Information</h1>
+        <Navbarr/>
+        <Cardinformation/>
+        <Footer/>
+        
       </>
     )
   }

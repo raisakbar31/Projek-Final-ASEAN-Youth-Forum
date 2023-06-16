@@ -1,8 +1,19 @@
+import Cardlogin from "../component/Login/Cardlogin"
+import Navbarr from "../component/Navbarr"
+import Footer from "../component/footer"
+
+
 function Login() {
 
     return (
       <>
-        <h1>Login</h1>
+        <Navbarr/>
+        <Cardlogin/>
+
+        <Footer/>
+
+
+
       </>
     )
   }
