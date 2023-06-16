@@ -169,7 +169,7 @@ function Qna() {
       </div><br />
       <center>
       <p className="title-qna"><h2>Ready To Change Asean ?</h2> </p>
-      <div className="button2">  <a href="#">LET'S JOIN US</a></div>
+      <div className="button1">  <a href="#">LET'S JOIN US</a></div>
         </center><br /><br />
       
     </>
